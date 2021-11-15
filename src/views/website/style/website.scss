@@ -1,0 +1,339 @@
+.pad-0 {
+    padding: 0;
+  }
+  .pad-15 {
+    padding: 10*$px 15*$px 15*$px 15*$px;
+  }
+  .website {
+    position: relative;
+    width: 100%;
+  
+    header {
+      height: 64 * $px;
+      background: rgba(255, 255, 255, 0.72);
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      padding: 0 50*$px 0 15*$px;
+      img {
+        width: 120 * $px;
+        height: 30 * $px;
+        // margin-left: 15 * $px;
+        // margin-top: 17 * $px;
+      }
+      .authenticate{
+        font-family: RobotoBold;
+        font-size: 12 * $px;
+        line-height: 14 * $px;
+        color: #232323;
+        margin-left: 40 * $px;
+      }
+      .supply{
+        font-family: RobotoBold;
+        font-size: 12 * $px;
+        line-height: 14 * $px;
+        text-decoration-line: none;
+        color: #969696;
+        margin-left: 40 * $px;
+      }
+    }
+    .prefer {
+      width: 100%;
+      // background: rgba(0, 0, 0, 0.8);
+      overflow: hidden;
+      position: relative;
+      .backUrl {
+        // position: absolute;
+        // top:0;
+        // left: 0;
+        width: 375 * $px;
+      }
+      h3 {
+        position: absolute;
+        font-family: RobotoBold;
+        font-size: 30 * $px;
+        line-height: 35 * $px;
+        color: #ffffff;
+        width: 290 * $px;
+        left: 57 * $px;
+        top: 40 * $px;
+      }
+      .text {
+        position: absolute;
+        top: 125 * $px;
+        left: 36 * $px;
+        font-family: RobotoRegular;
+        font-size: 16 * $px;
+        line-height: 19 * $px;
+        text-align: center;
+        color: #ffffff;
+      }
+      .phone {
+        position: absolute;
+        top: 174 * $px;
+        left: 53 * $px;
+        width: 270 * $px;
+        img {
+          width: 100%;
+          height: 544.03 * $px;
+        }
+        .phone_container{
+            position: relative;
+            .inner_img{
+              position: absolute;
+              left: 16 * $px;
+              top: 16 * $px;
+              width: 240 * $px;
+              height: 519 * $px;
+          }
+        }
+      }
+      .video {
+        position: absolute;
+        top: 184 * $px;
+        left: 69.12 * $px;
+        width: 238.77 * $px;
+        height: 518.8 * $px;
+        border-radius: 24*$px;
+      }
+      .download {
+        position: absolute;
+        top: 749 * $px;
+      //   left: 64 * $px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50 * $px;
+        width: 100%;
+        .left {
+          width: 132 * $px;
+          height: 100 * $px;
+          img {
+            width: 100%;
+          }
+          img:first-child {
+            margin-bottom: 15.75 * $px;
+          }
+        }
+        .right {
+          width: 100 * $px;
+          height: 100 * $px;
+          margin-left: 16 * $px;
+          img {
+            width: 100%;
+          }
+        }
+      }
+    }
+    .howMany {
+      width: 100%;
+      padding: 60 * $px 20 * $px 60 * $px 20 * $px;
+      .title {
+        width: 100%;
+        height: 76 * $px;
+        text-align: center;
+        margin-bottom: 15 * $px;
+        position: relative;
+        img {
+          width: 80 * $px;
+        }
+        .titleTil {
+          font-family: RobotoBold;
+          font-size: 30 * $px;
+          line-height: 35 * $px;
+          color: #232323;
+          position: absolute;
+          top: 22.5 * $px;
+          left: 97 * $px;
+        }
+        .titleTxt {
+          font-family: RobotoRegular;
+          font-weight: 300;
+          font-size: 16 * $px;
+          line-height: 19 * $px;
+          color: #646464;
+        }
+      }
+      .content {
+          position: relative;
+          margin-top: 30 * $px;
+        .img_container{
+          width: 335 * $px;
+          height: 220 * $px;
+          margin-top: 15 * $px;
+          position: relative;
+          img {
+              width: 335 * $px;
+          }
+            .num{
+                display: block;
+              position: absolute;
+              font-size: 40 * $px;
+              font-family: RobotoBold;
+              color: #FFFFFF;
+              top: 129 * $px;
+              left: 50%;
+              transform: translate((-50%, 0));
+            }
+            .text{
+              display: block;
+              position: absolute;
+              top: 176 * $px;
+              font-family: RobotoRegular;
+              font-size: 16 * $px;
+              color: rgba(255, 255, 255, 0.7);
+              left: 50%;
+              transform: translate((-50%, 0));
+              white-space: nowrap;
+            }
+        }
+      }
+    }
+    .topIcon {
+      width: 375 * $px;
+      border: 0px;
+      margin: 0px;
+      padding: 0px;
+      display: block;
+    }
+    .botIcon {
+      width: 375 * $px;
+      transform: rotateY(-180deg);
+      border: 0px;
+      margin: 0px;
+      padding: 0px;
+      display: block;
+    }
+    .soleStage {
+      position: relative;
+      overflow: hidden;
+      background: linear-gradient(#f9f9f9, #eeeeee 54.69%, #f9f9f9 100%);
+      .title {
+        width: 100%;
+        height: 76 * $px;
+        text-align: center;
+        margin-bottom: 15 * $px;
+        img {
+          width: 80 * $px;
+        }
+        .titleTil {
+          font-family: RobotoBold;
+          font-size: 30 * $px;
+          line-height: 35 * $px;
+          color: #232323;
+          position: absolute;
+          top: 22.5 * $px;
+          // left: 97 * $px;
+          left: 50%;
+          transform: translate(-50%, 0);
+          white-space: nowrap;
+        }
+        .titleTxt {
+          font-family: RobotoRegular;
+          font-weight: 300;
+          font-size: 16 * $px;
+          line-height: 19 * $px;
+          color: #646464;
+        }
+      }
+      .shoe {
+        width: 235 * $px;
+        position: absolute;
+        top: 61 * $px;
+        left: 204 * $px;
+        img {
+          width: 100%;
+        }
+      }
+      .detail {
+        .content {
+          margin-top: 50 * $px;
+          width: 100%;
+          text-align: center;
+          .num {
+            width: 56 * $px;
+            margin-bottom: 10 * $px;
+          }
+          .tile {
+            font-family: RobotoBold;
+            font-size: 24px;
+            line-height: 28px;
+            color: #232323;
+            margin-bottom: 5 * $px;
+          }
+          .text {
+            font-family: RobotoRegular;
+            font-size: 16 * $px;
+            line-height: 24 * $px;
+            text-align: center;
+            color: #646464;
+            width: 290 * $px;
+            margin-left: 43 * $px;
+            font-weight: 500;
+          }
+          .imgBox {
+            width: 328 * $px;
+            margin: 30 * $px 27 * $px -10 * $px 20 * $px;
+            img {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+    .brand {
+      .title {
+        width: 100%;
+        height: 76 * $px;
+        text-align: center;
+        margin-bottom: 15 * $px;
+        position: relative;
+        img {
+          width: 80 * $px;
+        }
+        .titleTil {
+          font-family: RobotoBold;
+          font-size: 30 * $px;
+          line-height: 35 * $px;
+          color: #232323;
+          position: absolute;
+          top: 22.5 * $px;
+          left: 140 * $px;
+        }
+        .titleTxt {
+          font-family: RobotoRegular;
+          font-weight: 300;
+          font-size: 16 * $px;
+          line-height: 19 * $px;
+          color: #646464;
+        }
+      }
+    }
+    .botDownload{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50 * $px;
+        width: 100%;
+        background: #333;
+        padding: 30*$px 0;
+        .left {
+          width: 132 * $px;
+          height: 100 * $px;
+          img {
+            width: 100%;
+          }
+          img:first-child {
+            margin-bottom: 15.75 * $px;
+          }
+        }
+        .right {
+          width: 100 * $px;
+          height: 100 * $px;
+          margin-left: 16 * $px;
+          img {
+            width: 100%;
+          }
+        }
+    }
+  }

@@ -1,0 +1,57 @@
+.cvv_submit {
+    padding: 15 * $px;
+    .close_icon{
+        width: 24 * $px;
+        height: 24 * $px;
+        float: right;
+    }
+    .p_card_info{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 345 * $px;
+        .card_icon{
+            width: 28 * $px;
+            height: 18 * $px;
+        }
+        .card_text{
+            color: #232323;    
+            font-size: 14 * $px;
+            margin-left: 10 * $px;
+        }
+    }   
+    .cvv_box{
+        width: 345 * $px;
+        height: 48 * $px;
+        margin-top: 20 * $px;
+        background: #F5F5F5;
+        border-radius: 4 * $px;
+        display: flex;
+        flex-direction: column;
+        // align-content: center;
+        // align-items: center;
+        justify-content: space-around;
+        padding-left: 15 * $px;
+        // border: 1px solid red;
+        .submit_cvc{
+            // border: 1px solid red;
+            height: 32 * $px;
+            width: 70 * $px;
+        }
+    }
+    .submit_click_disabled{
+        margin-top: 38 * $px;
+        width: 345 * $px;
+        height: 48 * $px;
+        border-radius: 4 * $px;
+        color: #FFFFFF;
+        font-family: RobotoBold;
+        font-size: 18 * $px;
+        text-align: center;
+        line-height: 48 * $px;
+        background: rgba(245, 51, 63, 0.5);
+    }
+    .submit_click_complete{
+        background: #F5333F;
+    }
+}

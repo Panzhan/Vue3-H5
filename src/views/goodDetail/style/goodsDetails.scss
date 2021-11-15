@@ -1,0 +1,108 @@
+.bg-e5 {
+    background: #E5E5E5;
+}
+.good_detail{
+    padding-bottom: 40 * $px;
+    .my-swipe .van-swipe-item {
+        text-align: center;
+        img{
+            width: 347 * $px;
+            max-height: 347 * $px;
+            border-radius: 4 * $px;
+        }
+    }
+    .label_url{
+        width: 100%;
+        height: 36 * $px;
+    }
+    .bg_fff{
+        border-radius: 4 * $px;
+        background: #FFFFFF;
+        margin-top: 10 * $px;
+    }
+    .goods_price{
+        font-family: RobotoBold;
+        color: #232323;
+        height: 81 * $px;
+        padding: 10 * $px 0 10 * $px 15 * $px;
+        margin-bottom: 10 * $px;
+        .g_price{
+            font-size: 30 * $px;
+            display: block;
+            margin-bottom: 10 * $px;
+        }
+        .g_text{
+            font-size: 14 * $px;
+        }
+    }
+    .product_information{
+        padding: 15 * $px;
+        .h1_btm{
+            margin-bottom: 10 * $px;
+        }
+        .sizeexplain_item{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            background: #FAFAFA;
+            height: 36 * $px;
+            line-height: 36 * $px;
+            border-bottom: 1 * $px solid #FFFFFF;
+            .name_content{
+                text-align: center;
+            }
+            .name{
+                border-right: 1 * $px solid #FFFFFF;
+                flex: 1;
+                text-align: left;
+                padding-left: 15 * $px;
+            }
+            .content{
+                flex: 2;
+                text-align: right;
+                padding-right: 15 * $px;
+                color: #232323;
+                font-family: RobotoBold;
+            }
+        }
+    }
+    .size_chart{
+        padding: 15 * $px;
+        table{
+            width: 100%;
+            text-align: center;
+            margin-bottom: 10 * $px;
+            border-collapse: collapse;
+            td{
+                font-size: 12 * $px;
+            }
+        }
+        .max_th{
+            width: 100%;
+            font-size: 12 * $px;
+            font-family: 'RobotoBold';
+            height: 36 * $px;
+            line-height: 36 * $px;
+            text-align: center;
+            background: #f5f5f5f5;
+            margin-top: 10 * $px;
+        }
+        .th_style{
+            background: #FAFAFA;
+            font-size: 12 * $px;
+            color: #646464;
+        }
+        .bg_fa{
+            background: #FAFAFA;
+        }
+        .border_left{
+            border-left: 1 * $px solid #FFFFFF;
+        }
+    }
+    .rich_text{
+        width: 100%;
+        img{
+            width: 100%;
+        }
+    }
+}

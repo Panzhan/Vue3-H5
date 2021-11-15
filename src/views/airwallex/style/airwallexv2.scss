@@ -1,0 +1,290 @@
+.awx_payment_v2 {
+    padding-bottom: 85 * $px;
+    .empty{
+        height: 10 * $px;
+        width: 100%;
+        background: #F5F5F5;
+    }
+    .title_box{
+        height: 44 * $px;
+        line-height: 44 * $px;
+        color: #232323;
+        font-family: RobotoBold;
+        font-style: normal;
+        font-weight: bold;
+        display: flex;
+        justify-content: space-between;
+        background: #FFFFFF;
+        // border: 1px solid red;
+        .com{
+            flex: 1;
+        }
+        .back{
+            font-size: 14 * $px;
+            position: relative;
+            img{
+                margin-left: 8 * $px;
+                width: 30 * $px;
+                height: 30 * $px;
+                position: absolute;
+                top: 50%;
+                transform: translate(0,-50%);
+            }
+        }
+        .title{
+            font-size: 18 * $px;
+            text-align: center;
+            flex: 4;
+        }
+    }
+    .card_info{
+        background: #FFFFFF;
+        border-radius: 4 * $px;
+        padding: 20 * $px 15 * $px 20 * $px;
+        display: block;
+        .title{
+            font-family: RobotoBold;
+            font-size: 16 * $px;
+        }
+        .edit_card{
+            color: #646464;
+            position: absolute;
+            right: 15 * $px;
+            text-decoration: underline;
+        }
+        .last_card{
+            height: 40 * $px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            border: 1 * $px solid #F5F5F5;
+            border-radius: 4 * $px;
+            position: relative;
+            margin-top: 15 * $px;
+            .card_icon{
+                width: 28 * $px;
+                height: 18 * $px;
+                margin-left: 15 * $px;
+            }
+            .card_text{
+                color: #232323;    
+                font-size: 14 * $px;
+                margin-left: 10 * $px;
+            }
+            .card_pick{
+                width: 12 * $px;
+                height: 12 * $px;
+                position: absolute;
+                right: 13 * $px;
+            }
+        }
+        .air_card_number{
+            margin-top: 15 * $px;
+            width:345 * $px;
+            border:1 * $px solid #F5F5F5;
+            border-radius: 4 * $px;
+            height: 40 * $px;
+            padding: 5 * $px 0 5 * $px 16 * $px;
+        }
+        .cvv_expiry {
+            display: inline-flex;
+            margin-top: 10 * $px;
+            white-space: nowrap;
+            .air_expiry{
+                height: 40 * $px;
+                width:168 * $px;
+                border:1 * $px solid #F5F5F5;
+                display: inline-block;
+                border-radius: 4 * $px;
+                padding: 5 * $px 0 5 * $px 16px;
+            }
+            .air_cvc{
+                height: 40 * $px;
+                margin-left: 9 * $px;
+                width:168 * $px;
+                border:1 * $px solid #F5F5F5;
+                display: inline-block;
+                border-radius: 4 * $px;
+                padding: 5 * $px 0 5 * $px 16px;
+            }
+        }
+    }
+    .card_info_second{
+        padding: 20 * $px 15 * $px 36 * $px;
+        .first_last_name{
+            margin-top: 15 * $px;
+            display: flex;
+            justify-content: space-between;
+            .itp_border_short{
+                width: 168 * $px;
+            }
+        }
+        .phone{
+            display: flex;
+            justify-content: space-between;
+            .ipt_mini{
+                width: 74 * $px;
+            }
+            .ipt_long{
+                width: 261 * $px;
+            }
+        }
+    }
+    .van-field__control{
+        line-height: 18 * $px;
+    }
+    .van-cell::after{
+        border-bottom: 0
+    }
+    .van-cell__left-icon, .van-cell__right-icon{
+        height: 20 * $px;
+        line-height: 20 * $px;
+    }
+    .van-cascader__title{
+        text-align: center;
+        height: 70 * $px;
+        line-height: 70 * $px;
+    }
+    .van-cascader__option{
+        padding: 12 * $px 40 * $px;
+    }
+    .van-tabs__line{
+        height: 4 * $px;
+        width: 12 * $px;
+    }
+    .country_ca_box,
+    .pro_city_ca_box{
+        .van-tabs--line .van-tabs__wrap{
+            display: flex;
+            padding-left: 20 * $px;
+        }
+    }
+    // .sub_popup_card{
+    //     padding: 15 * $px;
+    //     .close_icon{
+    //         width: 24 * $px;
+    //         height: 24 * $px;
+    //         float: right;
+    //     }
+    //     .p_card_info{
+    //         display: flex;
+    //         flex-direction: row;
+    //         align-items: center;
+    //         width: 345 * $px;
+    //         .card_icon{
+    //             width: 28 * $px;
+    //             height: 18 * $px;
+    //         }
+    //         .card_text{
+    //             color: #232323;    
+    //             font-size: 14 * $px;
+    //             margin-left: 10 * $px;
+    //         }
+    //     }   
+    //     .cvv_box{
+    //         width: 345 * $px;
+    //         height: 48 * $px;
+    //         margin-top: 20 * $px;
+    //         background: #F5F5F5;
+    //         border-radius: 4 * $px;
+    //         display: flex;
+    //         flex-direction: column;
+    //         // align-content: center;
+    //         // align-items: center;
+    //         justify-content: space-around;
+    //         padding-left: 15 * $px;
+    //         // border: 1px solid red;
+    //         .submit_cvc{
+    //             // border: 1px solid red;
+    //             height: 32 * $px;
+    //             width: 70 * $px;
+    //         }
+    //     }
+    //     .submit_click_disabled{
+    //         margin-top: 38 * $px;
+    //         width: 345 * $px;
+    //         height: 48 * $px;
+    //         border-radius: 4 * $px;
+    //         color: #FFFFFF;
+    //         font-family: RobotoBold;
+    //         font-size: 18 * $px;
+    //         text-align: center;
+    //         line-height: 48 * $px;
+    //         background: rgba(245, 51, 63, 0.5);
+    //     }
+    //     .submit_click_complete{
+    //         background: #F5333F;
+    //     }
+    // }
+    .van-icon{
+        float: right;
+    }
+}
+.btn_submit_v2{
+    position: fixed;
+    height: 98 * $px;
+    bottom: 0;
+    opacity: 1;
+    text-align: center;
+    background: #FFFFFF;
+    padding: 8 * $px 15 * $px 0;
+    -webkit-box-shadow: 0 15 * $px 10 * $px -15 * $px #000;
+    box-shadow: 0 15 * $px 10 * $px -15 * $px #000;
+    #submit {
+        color: #FFFFFF;
+        width: 345 * $px;
+        height: 48 * $px;
+        line-height: 48 * $px;
+        background: #F5333F;
+        border-radius: 4 * $px;
+        font-family: RobotoBold;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16 * $px;
+    }
+}
+.pay_disabled_v2{
+    #submit {
+        width: 345 * $px;
+        height: 48 * $px;
+        background: rgba(245, 51, 63, 0.5);
+        border-radius: 4 * $px;
+        font-family: RobotoBold;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16 * $px;
+        pointer-events: none;
+    }
+}
+.itp_border_gray{
+    border: 1 * $px solid #F5F5F5;
+    border-radius: 4 * $px;
+    margin: 5 * $px 0;
+    height: 40 * $px;
+    ::-webkit-input-placeholder {
+        color: #A8A8A8;;
+        font-family: RobotoRegular;
+        font-size: 14 * $px;
+    }
+}
+.line_block{
+    display: inline-flex;
+}
+.bg-e5 {
+    // background: #E5E5E5;
+}
+.pad-0 {
+    padding: 0;
+}
+.pad-15 {
+    padding: 10*$px 15*$px 15*$px 15*$px;
+}
+
+@supports ((height: constant(safe-area-inset-top)) or (height: env(safe-area-inset-top))) and (-webkit-overflow-scrolling: touch) {
+    .awx_payment_v2 {
+        /* 适配齐刘海 */
+        // padding-top: constant(safe-area-inset-top);
+        padding-top: env(safe-area-inset-top);
+        // padding-top: 25 * $px;
+    }
+}
