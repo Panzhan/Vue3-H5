@@ -61,8 +61,8 @@ router 中, component 定义变量名使用 PascalCase, 路由的 name 命名使
 - 基础组件的自动全局注册, 需将基础组件放置 src/components/base/* 路径下;
 
 
-测试环境地址：http://testh5.sneakerburgers.com/
-正式环境地址： http://m.sneakerburgers.com/
-# Check-H5
+测试环境地址：
+正式环境地址： 
+# V3H5
 
-鉴定H5项目
+VU3EH5项目

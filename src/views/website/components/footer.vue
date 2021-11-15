@@ -9,10 +9,10 @@
         </div>
         <div>
             <div class="concat">
-                Contact：service@solestage.com
+                Contact：service@V3H5.com
             </div>
             <div class='reserve'>
-                Copyright © 2001 - 2021 SoleStage Inc. All Rights Reserved
+                Copyright © 2001 - 2021 VSH5 Inc. All Rights Reserved
             </div>
             <div class='link'>
                 <router-link class='linkto' :to="{name:'terms'}">Terms of Use</router-link> <span>|</span> 
@@ -30,27 +30,27 @@ export default {
       {
         id: 1,
         url: require("@/assets/img/instagram_n.png"),
-        href: 'https://www.instagram.com/solestage/?hl=en',
+        href: '#',
       },
       {
         id: 2,
         url: require("@/assets/img/twitter_n.png"),
-        href: 'https://twitter.com/SoleStage',
+        href: '#',
       },
       {
         id: 3,
         url: require("@/assets/img/facebook_n.png"),
-        href: 'https://www.facebook.com/pages/category/Footwear-Store/Solestage-485958524768091/'
+        href: '#'
       },
       {
         id: 4,
         url: require("@/assets/img/tiktok_n.png"),
-        href: 'https://www.tiktok.com/@solestage?'
+        href: '#'
       },
       {
         id: 5,
         url: require("@/assets/img/youtobe_n.png"),
-        href: 'https://www.youtube.com/channel/UCDGPg_tCgllsJmrH5vXuyYA/featured'
+        href: '#'
       },
     ]);
     return {

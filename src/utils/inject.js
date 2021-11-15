@@ -9,7 +9,7 @@ window.ENV = {
     android: ua.indexOf('Android') > -1,
 
     // 判断是否内嵌app
-    app: ua2.indexOf('solestage') !== -1,
+    app: ua2.indexOf('V3H5') !== -1,
 
     wx: /micromessenger/.test(ua2),
     qq: /(iPad|iPhone|iPod).*? (IPad)?QQ\/([\d\.]+)/.test(ua2) || /\bV1_AND_SQI?_([\d\.]+)(.*? QQ\/([\d\.]+))?/.test(ua2), // /qq/.test(ua2),

@@ -17,7 +17,7 @@ module.exports = {
       entry: "./src/main.js", // page 的入口,每个“page”应该有一个对应的 JavaScript 入口文件
       template: "public/index.html", // 模板来源
       filename: "index.html", // 在 dist/index.html 的输出
-      title: "SOLESTAGE", // 当使用 title 选项时,在 template 中使用：<title><%= htmlWebpackPlugin.options.title %></title>
+      title: "V3H5", // 当使用 title 选项时,在 template 中使用：<title><%= htmlWebpackPlugin.options.title %></title>
       chunks: ["chunk-vendors", "chunk-common", "index"], // 在这个页面中包含的块，默认情况下会包含,提取出来的通用 chunk 和 vendor chunk
       // chunks: ['manifest','chunk-common', 'chunk-vendors', 'vendor', 'index'],
       // chunksSortMode: 'manual',
@@ -127,7 +127,7 @@ module.exports = {
       // mutate for development...
       config.plugin("html").use(require("html-webpack-plugin"), [
         {
-          title: "SOLESTAGE",
+          title: "V3H5",
           // url: path.resolve(__dirname, 'public/favicon.ico'),
           filename: "index.html",
           template: path.resolve(__dirname, "public/index.html"),

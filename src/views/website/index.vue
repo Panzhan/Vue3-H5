@@ -3,7 +3,7 @@
     <header>
       <img src="./../../assets/img/logo_n.png" alt="LOGO" />
       <a class='authenticate' href="javascript:;">Authenticate</a>
-      <a class='supply' href="https://supply.solestage.com/">Supply</a>
+      <a class='supply' href="#/">Supply</a>
     </header>
     <div class="prefer">
       <img class="backUrl" src="./../../assets/img/Group1487.png" alt="background-image" />
@@ -64,9 +64,9 @@
       </div>
     </div>
     <div>
-      <img class="topIcon" src="./../../assets/img/Group1533.png" alt="SOLESTAGE_icon" />
+      <img class="topIcon" src="./../../assets/img/Group1533.png" alt="V3H5_icon" />
     </div>
-    <h3 style="height: 60 * $px;background: rgb(249, 249, 249);color:rgb(249, 249, 249);display:block">SOLESTAGE</h3>
+    <h3 style="height: 60 * $px;background: rgb(249, 249, 249);color:rgb(249, 249, 249);display:block">V3H5</h3>
     <div class="soleStage">
       <!-- <div class="shoe">
         <img src="./../../assets/img/image6.png" alt="" />
@@ -74,7 +74,7 @@
       <div class="title">
         <!-- <img src="./../../assets/img/Group1494.png" alt="" /> -->
         <img src="./../../assets/img/Vector.png" alt="01" />
-        <p class="titleTil">Why SOLESTAGE?</p>
+        <p class="titleTil">Why V3H5?</p>
         <p class="titleTxt">our 4 advantages</p>
       </div>
       <div class="detail">
@@ -127,10 +127,10 @@
     <div>
       <img class="botIcon" src="./../../assets/img/Group1534.png" alt="bottom_icon" />
     </div>
-    <span style="height: 60 * $px;background: white;color:white;display:block;">SOLESTAGE</span><br>
+    <span style="height: 60 * $px;background: white;color:white;display:block;">V3H5</span><br>
     <div class="brand">
       <div class="title">
-        <img src="./../../assets/img/Vector.png" alt="SOLESTAGE" />
+        <img src="./../../assets/img/Vector.png" alt="V3H5" />
         <p class="titleTil">Brands</p>
         <p class="titleTxt">the categories and brands we support</p>
       </div>
@@ -162,7 +162,7 @@ export default {
     Footer
   },
   metaInfo: {
-    title: 'SOLESTAGE',
+    title: 'V3H5',
     meta: [
       {
         name: 'keywords',
@@ -194,10 +194,10 @@ export default {
     const handleJumpToStore = (val)=>{
         switch(val){
             case 'apple':
-                window.location.href = 'https://apps.apple.com/app/id1586981419'
+                window.location.href = '#'
                 break 
             case 'google':
-                window.location.href = 'https://play.google.com/store/apps/details?id=com.sneaker.solestage'
+                window.location.href = '#'
                 break 
             default:
                 console.log('default')

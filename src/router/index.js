@@ -18,8 +18,6 @@ const router = createRouter({
         { path: '/website/terms', name: 'terms', component: () => defineAsyncComponent(() => import('@/views/website/terms')), meta: { title: '' } },
         // 原pc官网法律政策
         { path: '/website/legal', name: 'legal', component: () => defineAsyncComponent(() => import('@/views/website/legal')), meta: { title: '' } },
-        // solestage download
-        { path: '/solestage/download', name: 'download', component: () => defineAsyncComponent(() => import('@/views/download/index')), meta: { title: '' } },
         //airwallex 2.0
         { path: '/airwallex/indexv2', name: 'airwallexv2', component: () => defineAsyncComponent(() => import('@/views/airwallex/indexv2')), meta: { title: '' } },
         //买家须知

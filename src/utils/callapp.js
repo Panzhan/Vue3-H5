@@ -1,7 +1,7 @@
 const appStore = 'https://apps.apple.com/cn/app/id1542947022' // https://sj.qq.com/myapp/detail.htm?apkName=com.etechs.eyee
 const loadUrl = '' // https://a.app.qq.com/o/simple.jsp?pkgname=com.etechs.eyee
-const schemeUrl = 'solestage://'
-const redirectLink = 'solestage/h5?param='
+const schemeUrl = ''
+const redirectLink = ''
 
 const tryDelay = 400
 const showHintDelay = 700
